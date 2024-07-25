@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "timer.h"
 
-int timer(void){
+unsigned timer(void){
     return rand() % 8;
 }
